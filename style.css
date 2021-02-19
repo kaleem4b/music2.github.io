@@ -145,23 +145,25 @@ input[type="range"]::-webkit-slider-thumb {
 }
 .right #title{
 	position: absolute;
-	top: 60px;
+	top: 18%;
 	left: 50%;
 	transform: translateX(-50%);
 	text-transform: capitalize;
 	color: #fff;
     font-size: 35px;
     margin: auto;
+    text-align: center;
 }
 .right #artist{
 	position: absolute;
-	top: 110px;
+	top: 27%;
 	left: 50%;
 	transform: translateX(-50%);
 	text-transform: capitalize;
 	color: #fff;
     font-size: 18px;
     margin: auto;
+    text-align: center;
 }
 .right .duration{
 	position: absolute;
@@ -299,8 +301,8 @@ input[type="range"]::-webkit-slider-thumb {
     }
 
     .right .middle button{
-        height: 60px;
-        width: 60px;
+        height: 54px;
+        width: 54px;
     }
 
     .right #title{
@@ -319,14 +321,11 @@ input[type="range"]::-webkit-slider-thumb {
     }
 
     .right #title{
-        
         width: 300px;
-        margin-left: 20px;
     }
     
     .right #artist{
         width: 300px;
-        margin-left: 20px;
     }
 }
 
@@ -338,14 +337,11 @@ input[type="range"]::-webkit-slider-thumb {
     }
 
     .right #title{
-        
         width: 300px;
-        margin-left: 20px;
     }
     
     .right #artist{
         width: 300px;
-        margin-left: 20px;
     }
 }
 
@@ -372,12 +368,10 @@ input[type="range"]::-webkit-slider-thumb {
 
     .right #title{
         width: 300px;
-        margin-left: 20px;
     }
 
     .right #artist{
         width: 300px;
-        margin-left: 20px;
     }
 
     .middle {
@@ -421,11 +415,10 @@ input[type="range"]::-webkit-slider-thumb {
         margin-bottom: -60px;
     }
     .container {
-        height: 140vh;
+        height: 160vh;
     }
 
     .right #title{
-        margin-top: 0px;
         text-align: center;
         width: 100%;
     }
@@ -474,7 +467,15 @@ input[type="range"]::-webkit-slider-thumb {
 
 @media (max-width: 550px) and (max-height: 580px) {
     .container {
-        height: 150vh;
+        height: 160vh;
+    }
+
+    .right #title {
+        margin-top: -40px;
+    }
+
+    .right #artist {
+        margin-top: -20px;
     }
 } 
 
@@ -490,7 +491,7 @@ input[type="range"]::-webkit-slider-thumb {
     }
 
     .right #title{
-        margin-top: -20px;
+        margin-top: -45px;
         text-align: center;
         width: 100%;
         height: 100px;
@@ -514,10 +515,12 @@ input[type="range"]::-webkit-slider-thumb {
     }
     .right #title {
         margin: auto;
+        margin-top: -45px;
     }
 
     .right #artist {
         margin: auto;
+        margin-top: -30px;
     }
 
     .footer {
@@ -619,3 +622,138 @@ input[type="range"]::-webkit-slider-thumb {
         height: 460vh;
     }
 } 
+
+@media (min-width: 550px) and (min-height: 575px) {
+    .right #title {
+        font-size: 2rem;
+    }
+
+    .right #artist {
+        font-size: 1rem;
+    }
+
+    .middle {
+        text-align: center;
+        margin: 0;
+        margin: auto;
+        margin-top: 50vh;
+    }
+
+    .right .middle button{
+        height: 52px;
+        width: 52px;
+    }
+
+    .right .duration{
+        bottom: 30%;
+    }
+
+    .right #auto{
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 45px;
+        border: none;
+        padding: 8px 12px;
+        margin-bottom: 10vh;
+    }
+}
+
+@media (min-width: 550px) and (min-height: 500px) {
+    .left img {
+        height: 35vh;
+    }
+
+    .right .middle button{
+        height: 46px;
+        width: 46px;
+    }
+
+    .middle {
+        margin: auto;
+        margin-top: 50vh;
+    }
+
+    .duration {
+        margin-bottom: 5vh;
+    }
+
+    #auto {
+        margin-bottom: 7vh;
+    }
+}
+
+@media (min-width: 550px) and (min-height: 370px) {
+    .right #title {
+        font-size: 1.8rem;
+        margin-top: -1vh;
+    }
+
+    .right #artist {
+        margin-top: 1vh;
+        font-size: 0.85rem;
+    }
+
+    .middle {
+        margin: auto;
+        margin-top: 41vh;
+    }
+
+    .right .middle button{
+        height: 40px;
+        width: 40px;
+    }
+
+    .duration {
+        margin-bottom: 10vh;
+    }
+
+    #auto {
+        margin-bottom: 10vh;
+    }
+
+    .volume {
+        margin-bottom: -3px;
+        font-size: 0.8rem;
+        border-radius: 50%;
+    }
+
+    #volume_show {
+        font-size: 0.8rem;
+        border-radius: 80px;
+    }
+}
+
+@media (min-width: 700px) and (min-height: 370px) {
+    .left img {
+        height: 50vh;
+        margin-bottom: 0vh;
+    }
+    
+    .footer {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+
+@media (min-width: 1000px) and (min-height: 370px) {
+    .right #title {
+        font-size: 2.7rem;
+        width: 100%;
+    }
+
+    .right #artist {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 550px) and (min-height: 200px) {
+    body {
+        height: 200vh;
+    }
+
+    #main {
+        height: 70%;
+    }
+}
