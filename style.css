@@ -748,12 +748,49 @@ input[type="range"]::-webkit-slider-thumb {
     }
 }
 
-@media (min-width: 550px) and (min-height: 200px) {
-    body {
-        height: 200vh;
+@media (min-width: 550px) and (min-height: 310px) {
+    .right #title {
+        font-size: 2rem;
+        width: 100%;
+        margin: auto;
+        margin-top: 0px;
     }
 
-    #main {
-        height: 70%;
+    .right #artist {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .right .middle button {
+        width: 30px;
+        height: 30px;
+        padding: 20px;
+    }
+
+    .middle {
+        margin: auto;
+        margin-top: 45vh;
+    }
+
+    .duration {
+        margin-bottom: 20px;
+    }
+
+    #auto {
+        margin: auto;
+        margin-top: 10px;
+        padding: 0;
+        font-size: 0.8rem;
+    }
+
+    .footer {
+        padding: 10px 0;
+    }
+
+    .left img {
+        height: 50vh;
+        margin-top: -30vh;
     }
 }
+
+
