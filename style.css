@@ -793,4 +793,76 @@ input[type="range"]::-webkit-slider-thumb {
     }
 }
 
+@media (max-height: 600px) {
+    .left #track_image {
+        height: 300px;
+        width: 450px;
+    }
+}
 
+@media (max-height: 530px) {
+    .left #track_image {
+        height: 250px;
+        width: 400px;
+    }
+}
+
+@media (max-height: 390px) {
+    .left #track_image {
+        height: 200px;
+        width: 350px;
+        margin-bottom: -100px;
+    }
+
+    .volume {
+        margin-bottom: -10px;
+    }
+
+    .footer {
+        padding: 15px 0;
+    }
+}
+
+@media (max-height: 330px) {
+    .left #track_image {
+        height: 200px;
+        width: 350px;
+    }
+
+    .volume {
+        margin-bottom: -20px;
+    }
+}
+
+@media (max-height: 310px) {
+    .left #track_image {
+        height: 170px;
+        width: 270px;
+        margin-bottom: 0px;
+    }
+
+    .right .middle button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .right #title {
+        margin-bottom: 0;
+    }
+
+    .right #artist {
+        margin-top: 15px;
+    }
+
+    .middle {
+        margin-top: 100px;
+    }
+
+    .duration {
+        margin-bottom: 30px;
+    }
+
+    .footer {
+        padding: 19px 0;
+    }
+}
